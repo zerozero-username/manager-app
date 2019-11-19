@@ -6,6 +6,8 @@ import tkinter.messagebox
 from tkinter import Tk, Entry, Button, Label, Scrollbar, Listbox, Grid, StringVar, W, E, S, N
 from client_app import client_app_db
 
+
+
 #! Create window
 main_menu=Tk()
 main_menu.geometry('302x166')
