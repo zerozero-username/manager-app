@@ -17,7 +17,7 @@ main_menu.title('Menu')
 btn_client_db = Button(main_menu, text='Client Database', font=('bold', 11), command=client_app_db)
 btn_client_db.grid(row=0, column=0, ipady=2, padx=5, pady=2, sticky=W+E)
 
-btn_retail_db = Button(main_menu, text='Retailer Database', font=('bold', 11))
+btn_retail_db = Button(main_menu, text='Retailer Database', font=('bold', 11), command=retailer_app_db)
 btn_retail_db.grid(row=1, column=0, ipady=2, padx=5, pady=4, sticky=W+E)
 
 btn_main_db = Button(main_menu, text='Main Database', font=('bold', 11))
