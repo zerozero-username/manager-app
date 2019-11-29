@@ -21,9 +21,8 @@ def client_app_db():
         #!Commands
         def save(c_db):
                 #saving the user data of the entries
-                c_db.insert(store.get(), product_data.get(), 
-                    cod_data.get(), price_data.get())
-
+                c_db.insert(client_data.get(), client_address_data.get(), city, zip_code_data.get(), employer_id_data.get(), store_id_data.get())
+                
 
 
         #! Create widgets
