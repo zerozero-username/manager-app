@@ -7,6 +7,9 @@ import tkinter.messagebox
 
 import client_db
 
+
+c_db = client_db('client_db')
+
 def client_app_db():
 
         client_app = Tk()
@@ -16,7 +19,11 @@ def client_app_db():
         app_font = font.Font(family='Arial',size=11,weight='bold')
 
         #!Commands
-        
+        def save(c_db):
+                #saving the user data of the entries
+                c_db.insert(store.get(), product_data.get(), 
+                    cod_data.get(), price_data.get())
+
 
 
         #! Create widgets
